@@ -1,7 +1,4 @@
-export * from "./colors";
-export * from "./space";
-export * from "./radii";
-export * from "./fonts";
-export * from "./font-sizes";
-export * from "./font-weights";
-export * from "./line-heights";
+export const fonts = {
+    default: 'Roboto, sans-serif',
+    code: 'monospace',
+  }
